@@ -2,9 +2,9 @@ from behave import given,when,then
 from selenium import webdriver
 
 
-@given("open Microsoft-Edge Browser Driver")
+@given("I Launch Microsoft-Edge Dev Browser")
 def launch_browser(context):
-    context.driver=webdriver.Edge(executable_path="C:\\Users\\611903295\\Downloads\\Pytest_Journey\\msedgedriver.exe")
+    context.driver=webdriver.Edge()
 
 
 @when("open the Orange HRM Home page")

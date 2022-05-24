@@ -1,0 +1,154 @@
+{
+  "uid" : "b20c0e813e7e210e",
+  "name" : "checking login functionality of HRM web page with Multiple parameters -- @1.1 ",
+  "fullName" : "Login Functionality check of HRM web page: checking login functionality of HRM web page with Multiple parameters",
+  "historyId" : "96514e834f5b34ec14e8148effc7eee8",
+  "time" : {
+    "start" : 1653388037892,
+    "stop" : 1653388047291,
+    "duration" : 9399
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open the Edge Browser",
+      "time" : {
+        "start" : 1653388037894,
+        "stop" : 1653388038981,
+        "duration" : 1087
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When open the Orange HRM Login Page",
+      "time" : {
+        "start" : 1653388038981,
+        "stop" : 1653388040406,
+        "duration" : 1425
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And Accessing the HMS Page on that so that we can access the Login",
+      "time" : {
+        "start" : 1653388040406,
+        "stop" : 1653388040599,
+        "duration" : 193
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And Enter the username as \"admin\" and password as \"admin\"",
+      "time" : {
+        "start" : 1653388040599,
+        "stop" : 1653388040676,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And click on the Login button to access Dashboard Page",
+      "time" : {
+        "start" : 1653388040676,
+        "stop" : 1653388041148,
+        "duration" : 472
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then check the Dashboard page displayed or not and close the Edge Browser",
+      "time" : {
+        "start" : 1653388041148,
+        "stop" : 1653388045243,
+        "duration" : 4095
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Login Functionality check of HRM web page"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "password",
+    "value" : "admin"
+  }, {
+    "name" : "username",
+    "value" : "admin"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b20c0e813e7e210e.json",
+  "parameterValues" : [ "admin", "admin" ]
+}

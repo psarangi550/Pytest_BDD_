@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "70d727a52f5b4ed6a3e2d86f09872eee",
+    "name" : "Login Functionality check of HRM web page",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "25dde5f70e70b75332b72ad5a8696d63",
+    "name" : "Logo checking for orange HRM",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

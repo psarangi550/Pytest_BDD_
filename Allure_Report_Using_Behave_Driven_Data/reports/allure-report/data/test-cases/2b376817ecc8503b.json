@@ -1,0 +1,148 @@
+{
+  "uid" : "2b376817ecc8503b",
+  "name" : "checking login functionality of HRM web page",
+  "fullName" : "Login Functionality check of HRM web page: checking login functionality of HRM web page",
+  "historyId" : "80611065f22b1076ddc9bca7db821464",
+  "time" : {
+    "start" : 1653388028130,
+    "stop" : 1653388037889,
+    "duration" : 9759
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open the Edge Browser",
+      "time" : {
+        "start" : 1653388028131,
+        "stop" : 1653388029309,
+        "duration" : 1178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When open the Orange HRM Login Page",
+      "time" : {
+        "start" : 1653388029309,
+        "stop" : 1653388030647,
+        "duration" : 1338
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And Accessing the HMS Page on that so that we can access the Login",
+      "time" : {
+        "start" : 1653388030648,
+        "stop" : 1653388030857,
+        "duration" : 209
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And Enter the username as \"admin\" and password as \"admin\"",
+      "time" : {
+        "start" : 1653388030857,
+        "stop" : 1653388030935,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And click on the Login button to access Dashboard Page",
+      "time" : {
+        "start" : 1653388030935,
+        "stop" : 1653388031744,
+        "duration" : 809
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then check the Dashboard page displayed or not and close the Edge Browser",
+      "time" : {
+        "start" : 1653388031744,
+        "stop" : 1653388035836,
+        "duration" : 4092
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Login Functionality check of HRM web page"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b376817ecc8503b.json",
+  "parameterValues" : [ ]
+}
